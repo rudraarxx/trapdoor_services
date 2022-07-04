@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.navbar-nav .nav-link{
+    font-family: 'Poppins', sans-serif;
+    color: #06283D !important;
+}
+body{
+    background-color: #DFF6FF !important;
+}
+.right-nav a{
+    padding: 0 8px;
+    font-family: 'Poppins', sans-serif;
+    color: #06283D;
+}
+
+.right-nav a:focus{
+    outline: 0 !important;
+    box-shadow: none;
+}
+.right-nav span{
+    padding: 1px 0;
+    font-family: 'Poppins', sans-serif;
+    color: #06283D;
+}
+section .content{
+    margin-top: 150px;
+    padding-left: 30px;
+}
+section .content h1{
+    font-family: 'EB Garamond', serif;
+    font-size: 5rem;
+    color: #06283D;
+    /* line-height: 3rem; */
+}
+section .content h5{
+    font-family: 'Montserrat', sans-serif;
+}
+section .content .highlight{
+    font-family: 'Satisfy', cursive;
+    font-size: 2.5rem;
+    line-height: 1px;
+    color: #59bcef;
+}
+section .content a{
+    font-size: 16px !important;
+    font-family: 'Poppins', sans-serif;
+}
+section .content a:focus{
+    outline: 0 !important;
+    box-shadow: none;
+}
