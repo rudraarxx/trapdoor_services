@@ -12,6 +12,13 @@ body{
 html{
     scroll-behavior: smooth !important;
 }
+h1{
+    color: #06283D !important;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    background: #DFF6FF !important;
+}
 .navbar-brand{
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -37,13 +44,12 @@ html{
     color: #06283D;
 }
 section .main-pg{
-    height: 530px !important;
-    margin: 0px 0px !important;
-    position: absolute;
-    top: 10%;
+    height: 100vh;
+    padding-top: 100px !important;
+    /* margin: 0px 0px !important; */
 }
 section .content{
-    margin-top: 150px;
+    padding-top: 150px;
     padding-left: 30px;
 }
 section .content h1{
@@ -69,14 +75,11 @@ section .content a:focus{
     outline: 0 !important;
     box-shadow: none;
 }
-
 .about-us{
-    height: 600px;
-    position: absolute;
-    top: 100%;
+    height: 100vh;
 }
 .about-us .content{
-    height: 550px;
+    height: 100vh;
 }
 .about-us .content .abt-left{
     background: url(../assets/abt-us/abt-left.jpg);
@@ -116,4 +119,259 @@ section .content a:focus{
 .abt-right a{
     font-family: 'Poppins', sans-serif;
 }
+.second-pg{
+    padding: 0 0 !important;
+    height: 100vh;
+}
+/* .second-pg .content-nav{
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+}
+.second-pg .content-nav span{
+    color: #06283D;
+}
+.second-pg .content{
+    position: sticky;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    padding-top: 5px;
+    box-shadow:
+  0px 1.7px 2.2px rgba(0, 0, 0, 0.02),
+  0px 4.2px 5.3px rgba(0, 0, 0, 0.028),
+  0px 8.1px 10px rgba(0, 0, 0, 0.035),
+  0px 14.4px 17.9px rgba(0, 0, 0, 0.042),
+  0px 25.9px 33.4px rgba(0, 0, 0, 0.05),
+  0px 55px 80px rgba(0, 0, 0, 0.07)
+;
+    background-color: #DFF6FF;
+   
+}
+
+.second-pg .content-nav li a{
+    text-decoration: none;
+    color: gray;
+} */
+
+.project .project-left h3{
+    font-family: 'Poppins', sans-serif;
+    color: #06283D;
+}
+.project .project-left span{
+    color: #59bcef;
+}
+.project .project-left p{
+    text-align: justify;
+    padding-top: 10px;
+    padding-right: 150px;
+    font-family: 'Poppins', sans-serif;
+}
+.project .project-left a{
+    font-family: 'Poppins', sans-serif;
+}
+
+  .project .swiper-slide{
+        width: 230px !important;
+        height: 400px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        color: #fff;
+}
+.project .swiper-slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+  }
+
+  .project .swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+  }
+
+  .project .swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  }
+
+  .project .swiper-slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+  }
+
+  .project .swiper-slide:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+  }
+  
+  .third-pg{
+    width: 100%;
+    height: 100vh;
+  }
+  .third-pg span{
+    color: #59bcef;
+  }
+  .third-pg .card img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .forth-pg{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+  .forth-pg span{
+    color: #59bcef;
+  }
+  .forth-pg-left .swiper-slide .swiper-img{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+  }
+  .forth-pg-left .swiper-slide .swiper-img img{
+    width: 70%;
+    height: 100%;
+  }
+  .forth-pg-left .swiper-slide{
+    width: 100% !important;
+    height: 430px !important;
+    background:#fff;
+    border-radius: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+.forth-pg-slider .swiper-pagination-bullet {
+    width: 20px !important;
+    height: 20px !important;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000 !important;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .forth-pg-slider .swiper-pagination-bullet-active {
+    color: #fff !important;
+    background: #007aff;
+  }
+  /* .forth-pg-slider .swiper-slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+  }
+
+  .forth-pg-slider .swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+  }
+
+  .forth-pg-slider .swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  } */
+  .forth-pg-left h3{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 180px;
+  }
+
+  .fifth-pg{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+  .fifth-pg-left .img-top{
+    width: 100%;
+    height: 70%;
+  }
+  .fifth-pg-left .img-top img{
+    width: 100%;
+    height: 100%;
+  }
+  .fifth-pg-left ol{
+    list-style:decimal;
+  }
+  .fifth-pg-right{
+    width: 100%;
+    height: 100%;
+  }
+  .fifth-pg-right .row{
+    width: 100%;
+    height: 110px;
+  }
+  .fifth-pg-right .row-1 .row-img{
+    width: 100%;
+    height: 100%;
+    background: url("../assets/fifth-pg/banner5.png");
+    background-size: 100% 100%;
+    border-radius: 50%;
+
+  }
+  .fifth-pg-right .row-2 .row-img{
+    width: 100%;
+    height: 100%;
+    background: url("../assets/fifth-pg/banner6.png");
+    background-size: 100% 100%;
+    border-radius: 50%;
+
+  }
+  .fifth-pg-right .row-3 .row-img{
+    width: 100%;
+    height: 100%;
+    background: url("../assets/fifth-pg/banner7.png");
+    background-size: 100% 100%;
+    border-radius: 50%;
+
+  }
+  .fifth-pg-right .row-4 .row-img{
+    width: 100%;
+    height: 100%;
+    background: url("../assets/fifth-pg/banner8.png");
+    background-size: 100% 100%;
+    border-radius: 50%;
+
+  }
+
+  .sixth-pg{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+  .sixth-pg span{
+    color: #007aff;
+  }
+  .sixth-pg .accordion-button:focus{
+    outline: 0;
+    box-shadow: none !important;
+  }
+  .seventh-pg{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+  .seventh-pg .contact-img{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 40px;
+  }
+  .seventh-pg .contact-img img{
+    width: 100px;
+    height: 100px;
+  }
+  .seventh-pg .contact-body span img{
+    width: 20px;
+    height: 20px;
+  }
+  .second-pg .follow-us .social-link{
+    width: 100%;
+    height: 100px;
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .second-pg .follow-us .social-link img{
+    width: 100px;
+    height: 100px;
+  }
+
+
+
 
